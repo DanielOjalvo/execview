@@ -55,10 +55,6 @@ This determines static dependencies in cases where the executable statically lin
 
 ## Extra Information and a code tour
 ```
-rpm/
-	This directory contains code for automatically updating the server at mother.platsec.pdsea.f5net.com
-	This will likely not be of interest unless you want to start or modify running a cron job to upload data
-
 rpm_dissector/
 	__init__.py
 		- Empty this is just to make the module importable elsewhere
